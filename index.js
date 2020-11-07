@@ -3,6 +3,10 @@ const axios = require('axios')
 require('dotenv').config()
 
 
+const fromCoins = ['BTC', 'ETH', 'LTC']
+const toCurrency = 'GBP'
+
+
 const baseUrl = 'https://api.pro.coinbase.com'
 
 
@@ -73,7 +77,7 @@ main(
     process.env.API_KEY,
     process.env.API_SECRET,
     process.env.API_PASSPHRASE,
-    ['BTC', 'ETH', 'LTC'],
-    'GBP'
+    fromCoins,
+    toCurrency
 )
 .catch(error => console.log)
