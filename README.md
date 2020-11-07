@@ -1,5 +1,7 @@
 # Coinbase Wrapper - Node.js
 
+Coinbase accounts current total value.
+
 ## Setup
 
 ### Environment
