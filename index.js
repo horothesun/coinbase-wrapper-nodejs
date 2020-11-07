@@ -80,4 +80,4 @@ main(
     fromCoins,
     toCurrency
 )
-.catch(error => console.log)
+.catch(console.log)
